@@ -12,15 +12,34 @@
             margin-bottom: 30px; /* Space below the header */
             position: absolute; /* To position image inside header */
 
+        /* Align text inside the header */
+        .header-text {
+            text-align: left; /* Align text to the left */
+            margin-right: 200px; /* Add margin to avoid overlapping with image */
+        }
+
+        /* Styling the image */
         .header img {
             position: absolute;
             top: 20px; /* Adjusts vertical position */
             right: 20px; /* Adjusts horizontal position */
-            width: 100px; /* Adjust width */
-            height: 100px; /* Adjust height */
+            width: 150px; /* Adjust width */
+            height: 150px; /* Adjust height */
             border-radius: 50%; /* Optional: make it circular */
         }
-        }
+    </style>
+</head>
+<body>
+
+    <!-- Header rectangle with left-aligned text and image on the right -->
+    <div class="header">
+        <div class="header-text">
+            <h1>Zeniah Kyle Espineli</h1>
+            <h3>Professional Artist</h3>
+        </div>
+        <img src="https://zephryo.github.io/feu1.jpg" alt="Profile Picture">
+    </div>
+        
 
         /* Styling the body */
         body {
@@ -33,26 +52,7 @@
             background-color: #f0f0f0; /* Light gray background */
             font-family: Arial, sans-serif;
             padding: 50px;
- /* Header rectangle styling */
-        .header {
-            background-color: #C0C0C0; /* Green background */
-            color: black; /* Text color */
-            padding: 20px; /* Padding inside the rectangle */
-            border-radius: 5px; /* Optional: Rounded corners */
-            margin-bottom: 30px; /* Space below the header */
 }
-        .container {
-            margin: 50px auto; /* Centers the container */
-            width: 800px; /* Width of the page */
-            padding: 20px;
-            background-color: #FFFFFF; /* Light background for the content */
-            border: 1px solid #ddd; /* Border around the page */
-        }
-
-        /* Styling the image inside the header */
-        .header img {
-            margin-left: auto; /* Pushes the image to the right */
-        }
     </style>
 </head>
 
