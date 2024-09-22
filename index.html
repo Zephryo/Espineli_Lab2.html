@@ -1,128 +1,104 @@
-
 <html>
 <head>
     <title>ESPINELI_Resume.html</title>
     <style>
-        .header {
-            background-color: ##C0C0C0; /* Header background color */
-            color: black; /* Text color */
-           padding: 20px; /* Padding inside the rectangle */
-            text-align: left; /* Align text to the left */
-            border-radius: 5px; /* Optional: Rounded corners */
-            margin-bottom: 30px; /* Space below the header */
-            position: absolute; /* To position image inside header */
-
-        /* Align text inside the header */
-        .header-text {
-            text-align: left; /* Align text to the left */
-            margin-right: 200px; /* Add margin to avoid overlapping with image */
-        }
-
-        /* Styling the image */
-        .header img {
-            position: absolute;
-            top: 20px; /* Adjusts vertical position */
-            right: 20px; /* Adjusts horizontal position */
-            width: 150px; /* Adjust width */
-            height: 150px; /* Adjust height */
-            border-radius: 50%; /* Optional: make it circular */
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Header rectangle with left-aligned text and image on the right -->
-    <div class="header">
-        <div class="header-text">
-            <h1>Zeniah Kyle Espineli</h1>
-            <h3>Professional Artist</h3>
-        </div>
-        <img src="https://zephryo.github.io/feu1.jpg" alt="Profile Picture">
-    </div>
-        
-
-        /* Styling the body */
         body {
+            background-color: #f0f0f0; /* Light gray background */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center; /* Centers the content horizontally */
+            align-items: flex-start; /* Aligns content at the top */
+            min-height: 100vh;
         }
 
-         body {
-            background-color: #f0f0f0; /* Light gray background */
-            font-family: Arial, sans-serif;
-            padding: 50px;
-}
+        .container {
+            background-color: #fff; /* White background for the content */
+            padding: 30px;
+            width: 60%; /* Adjust width as needed */
+            max-width: 900px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            margin-top: 20px;
+        }
+
+        .header {
+            background-color: #C0C0C0; /* Header background color */
+            color: black; /* Text color */
+            padding: 20px;
+            text-align: left; /* Align text to the left */
+            position: relative;
+            margin-bottom: 30px; /* Space below the header */
+        }
+
+        .header img {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 120px; /* Adjust width */
+            height: 120px; /* Adjust height */
+        }
     </style>
 </head>
-
 <body>
-<div class="container">
-    <div class="header">
-       
-        <div>
+
+    <div class="container">
+        <div class="header">
             <h1>Zeniah Kyle Espineli</h1>
             <h3>Professional Artist</h3>
-            <p>
-                Contact Info: <br>
-                #: 09457753544 <br>
-                Email: 20231000748@feualabang.edu.ph
-            </p>
+            <div class="contact-info">
+                <h3>Contact info:</h3>
+                <p>Phone: 09457753544 <br>
+                Email: 20231000748@feualabang.edu.ph</p>
+            </div>
+            <img src="https://zephryo.github.io/feu1.jpg">
         </div>
+        <hr>
 
-        <img src="https://zephryo.github.io/feu1.jpg" width="150" height="150" alt="Profile Picture">
+        <h2>Profile</h2>
+        <p>A versatile learner who is quick to adapt to any situation and can work under pressure. Zeniah would like to join a team with like-minded and cooperative people that value punctuality and flexibility.</p>
+
+        <h2>Personal Information</h2>
+        <ul>
+            <li>Full Name: Zeniah Kyle Danao Espineli</li>
+            <li>Sex: Female</li>
+            <li>Birthday: March 19, 2003</li>
+            <li>Birthplace: Manila, Philippines</li>
+            <li>Mother's Name: Jovizen Danao Espineli</li>
+            <li>Civil Status: Single</li>
+            <li>Nationality: Filipino</li>
+        </ul>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li>Quick learner</li>
+            <li>Proficient in Excel</li>
+            <li>Proficient in Adobe Photoshop</li>
+            <li>Proficient in Adobe Illustrator</li>
+            <li>Proficient in Adobe Animate</li>
+            <li>Knowledgeable in Canva</li>
+            <li>Can work under pressure</li>
+            <li>Can adapt quickly</li>
+        </ul>
+
+        <h2>Educational Background</h2>
+        <ul>
+            <li>Child's Mind Learning Center - 2006-2008</li>
+            <li>Fuchun Primary School - 2010-2013</li>
+            <li>South Mansfield College - 2013-2015</li>
+            <li>Marsiling Secondary School - 2016-2017</li>
+            <li>Southernside Montessori School - 2017-2020</li>
+            <li>Lyceum of Alabang - 2020-2022</li>
+            <li>Mapua University - 2022-2023</li>
+            <li>FEU Alabang - 2023-2028</li>
+        </ul>
+
+        <h2>Achievements</h2>
+        <ul>
+            <li>With High Honors (Grade 9-11)</li>
+            <li>With Honors (Grade 12)</li>
+        </ul>
     </div>
 
-    <hr>
-
-    
-    <h2><u>Profile</u></h2>
-    <p>A versatile learner who is quick to adapt to any situation and can work under pressure. Zeniah would like to join a team with like-minded and cooperative people that value punctuality and flexibility.</p>
-
-    
-    <h2><u>Personal Information</u></h2>
-    <ul>
-        <li>Full Name: Zeniah Kyle Danao Espineli</li>
-        <li>Sex: Female</li>
-        <li>Birthday: March 19, 2003</li>
-        <li>Birthplace: Manila, Philippines</li>
-        <li>Mother's Name: Jovizen Danao Espineli</li>
-        <li>Civil Status: Single</li>
-        <li>Nationality: Filipino</li>
-    </ul>
-
-    <hr>
-   
-    <h2><u>Skills</u></h2>
-    <ul>
-        <li>Quick learner</li>
-        <li>Proficient in Excel</li>
-        <li>Proficient in Adobe Photoshop</li>
-        <li>Proficient in Adobe Illustrator</li>
-        <li>Proficient in Adobe Animate</li>
-        <li>Knowledgeable in Canva</li>
-        <li>Can work under pressure</li>
-        <li>Can adapt quickly</li>
-    </ul>
-
-   
-    <h2><u>Educational Background</u></h2>
-    <ul>
-        <li>Child's Mind Learning Center - 2006-2008</li>
-        <li>Fuchun Primary School - 2010-2013</li>
-        <li>South Mansfield College - 2013-2015</li>
-        <li>Marsiling Secondary School - 2016-2017</li>
-        <li>Southernside Montessori School - 2017-2020</li>
-        <li>Lyceum of Alabang - 2020-2022</li>
-        <li>Mapua University - 2022-2023</li>
-        <li>FEU Alabang - 2023-2028</li>
-    </ul>
-
-    <h2><u>Achievements</u></h2>
-    <ul>
-        <li>With High Honors (Grade 9-11)</li>
-        <li>With Honors (Grade 12)</li>
-    </ul>
-</div>
 </body>
 </html>
